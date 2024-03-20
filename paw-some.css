@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+}
+
+#homepet{
+    height: 300px;
+    background-image: url(Images/StockCake-Pets\ Cuddle\ Together_1710814213.jpg);
+    background-size: 100% 100%;
+}
+
+#heromugs{
+    height: 300px;
+    background-image: url(threemugs.jpg);
+    background-size: 100% 100%;
+}
+
+#overwork{
+    height: 300px;
+    background-image: url(Images/StockCake-Planning\ Overwhelm\ Rest_1710889697.jpg);
+    background-size: 100% 100%;
+}
+
+#pupsandkittens{
+    height: 300px;
+    background-image: url(Images/StockCake-Puppy\ Meets\ Kitten_1710895496.jpg);
+    background-size: 100% 100%;
+}
+
+#petrequest {
+    height: 300px;
+    background-image: url(Images/StockCake-Family\ Pet\ Time_1710814809.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input, textarea {
+    margin-bottom: .5em;
+}
+
+main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
+    background-color: #c2eafe;
+}
+
+main ul {
+    padding-left: 2em;
+}
+
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+h1{
+    color:#231814;    
+    background-color: #d28cb8;
+    font-size: 2em;
+    margin:0;
+    margin-left: 200px;
+    padding: 30px;
+}
+
+h2{
+    color:#608c26;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h3{
+    color:#608c26;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h4{
+    background-color: #d28cb3;
+    font-size: 1.2em;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    border-bottom:#d28cb3;
+    clear:left;
+}
+
+p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+dl{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+dt{
+    color:#d28cb3;
+}
+
+ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+#wrapper {
+    background-color: #231814;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(coffeelogo.jpg);
+    background-size: 150px 150px;    
+}
+
+header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    background-image: url(cup.jpg);
+    padding-left: 105px;
+    height: 128px;
+    color:#231814;
+    background-color: #d28cb3;
+    font-size: 3em;
+    margin:0;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: solid 1px;
+    border-color: #8cd294;;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+}
+
+.details {
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color:#c2fed4;
+}
+nav a:visited {
+    color:#b5d28c;
+}
+nav a:hover {
+    color:#339ccc;
+}
+
+body {
+    display: block;
+    color:#221811;
+    font-family: Tahoma, Arial, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    background-color: #d28cb3;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color: #d28cb3;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px #8C3826;
+    border-style: solid;
+
+}
+
+table {
+    width: 90%;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #8ed29c;
+}
+
+@media (min-width: 600px){
+    header {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    nav ul {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    nav li {
+        border-bottom: none;
+    }
+
+    #homepet {
+        height: 50vh;
+        background-image: url(Images/StockCake-Pets\ Cuddle\ Together_1710814213.jpg);
+    }
+
+    #heromugs {
+        background-image: url(heromugs.jpg);
+    }
+
+    #overwork {
+        background-image: url(Images/StockCake-Planning\ Overwhelm\ Rest_1710889697.jpg);
+    }
+
+    #petrequest {
+        background-image: url(Images/StockCake-Family\ Pet\ Time_1710814809.jpg);
+    }
+    #pupsandkittens{
+        background-image: url(Images/StockCake-Puppy\ Meets\ Kitten_1710895496.jpg);
+    }
+
+    #flow {
+        flex-direction: row;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h4 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    form {
+        width: 40%;
+        display: grid;
+        grid-gap: 1em; gap: 1em;
+        flex-direction: column;
+        grid-template-columns: 6em 1fr;
+    }
+
+    input[type="submit"] {
+        grid-column: 2/3;
+        width: 10em;
+        margin-left: 0;
+    }
+
+    input[type="submit"] {
+        grid-column: 2/3;
+        width: 9em;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    @supports (display: grid){
+        #wrapper {
+            display: grid;
+            grid-template: "header header"
+            "nav main"
+            "footer footer"
+            / 200px;
+        }
+        header { grid-area: header; }
+        nav { grid-area: nav; }
+        main { grid-area: main; }
+        footer { grid-area: footer; }
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    header {
+        background-image: url(Images/StockCake-Pet\ Love\ Symbol_1710815029.jpg);
+        background-size: 13% 150px;
+    }
+}
