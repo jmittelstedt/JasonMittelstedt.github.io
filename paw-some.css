@@ -8,9 +8,21 @@
     background-size: 100% 100%;
 }
 
-#heromugs{
+#vacation{
     height: 300px;
-    background-image: url(threemugs.jpg);
+    background-image: url(Images/StockCake-Joyful\ Beach\ Romp_1710814672.jpg);
+    background-size: 100% 100%;
+}
+
+#purpose{
+    height: 300px;
+    background-image: url(Images/StockCake-Dogs\ Awaiting\ Owner_1710814587.jpg);
+    background-size: 100% 100%;
+}
+
+#holiday{
+    height: 300px;
+    background-image: url(Images/StockCake-Joyful\ Holiday\ Moment_1710981706.jpg);
     background-size: 100% 100%;
 }
 
@@ -260,8 +272,16 @@ tr:nth-of-type(odd){
         background-image: url(Images/StockCake-Pets\ Cuddle\ Together_1710814213.jpg);
     }
 
-    #heromugs {
-        background-image: url(heromugs.jpg);
+    #vacation {
+        background-image: url(Images/StockCake-Joyful\ Beach\ Romp_1710814672.jpg);
+    }
+
+    #purpose {
+        background-image: url(Images/StockCake-Dogs\ Awaiting\ Owner_1710814587.jpg);
+    }
+
+    #holiday{
+        background-image: url(Images/StockCake-Joyful\ Holiday\ Moment_1710981706.jpg);
     }
 
     #overwork {
