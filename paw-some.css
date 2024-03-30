@@ -136,7 +136,6 @@ ul{
     background-color: #231814;
     padding: 0;
     background-repeat: no-repeat;
-    background-image: url(coffeelogo.jpg);
     background-size: 150px 150px;    
 }
 
@@ -145,7 +144,6 @@ header{
     margin-bottom: 5px;
     margin-left: 200px;
     background-repeat: no-repeat;
-    background-image: url(cup.jpg);
     padding-left: 105px;
     height: 128px;
     color:#231814;
