@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+.footerfloat{
+    font-size: 2em;
+}
 #homepet{
     height: 300px;
     background-image: url(Images/StockCake-Pets\ Cuddle\ Together_1710814213.jpg);
